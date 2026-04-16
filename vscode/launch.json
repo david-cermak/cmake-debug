@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cmake",
+            "request": "launch",
+            "name": "Debug IDF CMake (external)",
+            "cmakeDebugType": "external",
+            "pipeName": "/tmp/cmake-debugger-pipe"
+        },
+        {
+            "type": "cmake",
+            "request": "launch",
+            "name": "Debug IDF Early Expansion (external)",
+            "cmakeDebugType": "external",
+            "pipeName": "/tmp/cmake-early-debugger"
+        }
+    ]
+}
+
